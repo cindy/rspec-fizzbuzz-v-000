@@ -12,7 +12,8 @@ def fizzbuzz(number)
 
   if string == ""
     return nil
-  else 
+  else
     return string
+  end
 
 end
