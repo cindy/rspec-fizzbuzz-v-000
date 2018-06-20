@@ -4,11 +4,11 @@ def fizzbuzz(number)
   string = ""
   
   if number % 3 == 0
-    string += "Fizz" 
+    string += "Fizz"
   end
-  
+
   if number % 5 == 0
-    string += "Buzz"  
+    string += "Buzz"
   end
-  
+
 end
