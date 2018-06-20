@@ -9,3 +9,4 @@ def fizzbuzz(number)
   puts number
 end
 
+fizzbuzz(3)
