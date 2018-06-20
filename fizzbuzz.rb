@@ -6,7 +6,7 @@ def fizzbuzz(number)
   puts number % 3 == 0
   puts string 
   string += "Buzz" if number % 5 == 0
-  puts number
+  puts string
 end
 
 fizzbuzz(3)
