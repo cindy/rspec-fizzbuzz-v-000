@@ -10,6 +10,9 @@ def fizzbuzz(number)
     string += "Buzz"
   end
 
-  nil if string == ""
+  if string == ""
+    return nil
+  else 
+    return string
 
 end
