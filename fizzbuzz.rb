@@ -11,4 +11,5 @@ def fizzbuzz(number)
     string += "Buzz"
   end
 
+  string 
 end
