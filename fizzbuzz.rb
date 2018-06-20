@@ -6,5 +6,3 @@ def fizzbuzz(number)
   string += "Buzz" if number % 5 == 0
   string
 end
-
-puts fizzbuzz(3)
