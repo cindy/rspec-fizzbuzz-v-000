@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
   string = ""
-  
+
   if number % 3 == 0
     string += "Fizz"
   end
