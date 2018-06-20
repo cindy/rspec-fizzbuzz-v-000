@@ -2,7 +2,13 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
   string = ""
-  string += "Fizz" if number % 3 == 0
-  string += "Buzz" if number % 5 == 0
-  string
+  
+  if number % 3 == 0
+    string += "Fizz" 
+  end
+  
+  if number % 5 == 0
+    string += "Buzz"  
+  end
+  
 end
