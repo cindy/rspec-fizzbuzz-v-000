@@ -2,6 +2,6 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
   string = ""
-  string += "fuzz" if number % 3
-  string += "buzz" if number % 5
+  string += "Fizz" if number % 3
+  string += "Buzz" if number % 5
 end
